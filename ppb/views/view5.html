@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bienestar</title>
+    <script src="../resources/js/fontawesome.js"></script>
+    <script src="../resources/js/popper.min.js"></script>
+    <script src="../resources/js/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="../resources/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="../resources/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../resources/css/fontawesome-all.css">
+    <script src="../resources/js/jquery.min.js"></script>
+    <script src="../resources/js/bootstrap-datepicker.min.js"></script>
+</head>
+
+<body>
+<header id="menu" class="navbar"
+        style="background: url(../resources/img/ed.png); width: 1700px; height: 223px; backface-visibility: initial">
+    </br>
+    <div class="container">
+        <div class="row align-items-start col-xl-1">
+        </div>
+        <div class="row align-items-end col-xl-11">
+            <div class="col-xl-9">
+                <nav class="navbar col-xl-12">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item col-xl-2">
+                            <a class="nav-link  " href="view3.html"><h5 style="color: #1b1e21">Inicio</h5></a>
+                        </li>
+                        <li class="nav-item  col-xl-2">
+                            <a class="nav-link" href="view7.html"><h5 style="color: #1b1e21">Registro</h5></a>
+                        </li>
+                        <li class="nav-item  col-xl-2">
+                            <a class="nav-link" href="view6.html"><h5 style="color: #1b1e21">Prestamo</h5></a>
+                        </li>
+
+                        <li class="nav-item col-xl-2">
+                            <a class="nav-link" href="view8.html"><h5 style="color: #1b1e21">Sanciones</h5></a>
+                        </li>
+                        <li class="nav-item col-xl-4">
+                            <a class="nav-link" href="view4.html"><h5 style="color: #1b1e21">C.Deportivos</h5></a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+
+            <div class="col-xl-2">
+                <a class="nav-link" href="#"><h2 style="color: #1b1e21">Usuario</h2></a>
+            </div>
+            <div class="col-xl-1">
+                </br>
+                </br>
+                </br>
+                <img style="border-radius: 20px" src="../resources/img/icono-de-perfil-de-usuario.jpg" height="100"
+                     width="100"/>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</header>
+<div class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar" style="background-color: #ffc107 ">
+</div>
+
+</br>
+</br>
+
+<div>
+    <h1 align="center" class="col-xl-6"> Registros</h1>
+</div>
+</br>
+<div class="container">
+    <div class="row">
+        <div class="col-xl-6" align="center"><h1>Nuevo</h1></div>
+         </div>
+</div>
+<div class="container-fluid">
+<div class="col-xl-12 justify-content-sm-start row">
+    <div  class="col-xl-3">
+
+            <img align="rigth" class="col-xl-12" src="../resources/img/0acda03247c07474fe25d7f8c7d18269_S.jpg" height="340" width="250"/>
+
+    </div>
+
+    <div  align="center" class="col-xl-9 justify-content-sm-end">
+        </br>
+        <form class="col-xl-6">
+            <div class="form-group">
+                <label class="row" for="exampleInputEmail1">Codigo</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese Codigo">
+
+            </div>
+            <div class="form-group">
+                <label class="row" for="exampleInputEmail1">Nombre</label>
+                <input type="email" class="form-control" id="ail1" aria-describedby="emailHelp" placeholder="Ingrese Nombre">
+            </div>
+            <div class="form-group">
+                <label class="row" for="exampleInputEmail1">Caracteristicas</label>
+                <input type="email" class="form-control" id="l1" aria-describedby="emailHelp" placeholder="Ingrese la Caracteristica">
+            </div>
+            <div class="form-group">
+                <label class="row" for="exampleInputEmail1">Fecha Entrega</label>
+                <input id="datepicker"  width="276" />
+                <script type="text/javascript">
+                    $('#datepicker').datepicker({
+                        weekStart: 1,
+                        daysOfWeekHighlighted: "6,0",
+                        autoclose: true,
+                        todayHighlight: true,
+                    });
+                    $('#datepicker').datepicker("setDate", new Date());
+                </script>
+            </div>
+
+            <button type="submit" class="btn btn-primary col-xl-2 ">Guardar</button>
+            <button type="submit" class="btn btn-danger col-xl-2">Cancelar</button>
+        </form>
+
+
+    </div>
+
+
+</div>
+
+</div>
+<div align="center" class="col-xl-2">
+    </br>
+    <div  class="alert alert-primary col-xl-10" role="alert">
+        <h5>------------</h5>
+        <h5>--------------------</h5>
+        <h5>------------</h5>
+        <h5>------------</h5>
+        <h5>------------</h5>
+        <h5>------------</h5>
+
+    </div>
+</div>
+
+</br>
+</br>
+
+<footer class="bd-footer text-muted" style="background-color: #0069d9">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <h3 style="color: #f8f9fa">Universidad Santo Tomas</h3>
+                </br>
+
+                <h3 style="color: #f8f9fa">Facultad Ingeneria de Sistemas </h3>
+
+                </br>
+                </br>
+                <h5 style="color: #f8f9fa"> Derechos Reservados © 2019</h5>
+
+
+            </div>
+            <div class="col-6">
+                <h5 style="color: #f8f9fa"> Fabian Rodriguez </h5>
+                <h5 style="color: #f8f9fa"> Nicolle Vanessa Saavedra </h5>
+                <h5 style="color: #f8f9fa"> Mario Murcia </h5>
+                <h5 style="color: #f8f9fa"> Daniel </h5>
+                <h5 style="color: #f8f9fa"> Sebastian Ulloa </h5>
+                <h5 style="color: #f8f9fa">V 1.0</h5>
+
+            </div>
+        </div>
+    </div>
+
+</footer>
+</body>
+</html>
