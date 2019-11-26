@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="EscenarioService">
+      <implementation-class>co.usta.edu.wsgerencia.service.EscenarioService</implementation-class>
+    </service>
+    <service name="PersonaService">
+      <implementation-class>co.usta.edu.wsgerencia.service.PersonaService</implementation-class>
+    </service>
+    <service name="ImplementoService">
+      <implementation-class>co.usta.edu.wsgerencia.service.ImplementoService</implementation-class>
+    </service>
+    <service name="PrestamoService">
+      <implementation-class>co.usta.edu.wsgerencia.service.PrestamoService</implementation-class>
+    </service>
+    <service name="SancionService">
+      <implementation-class>co.usta.edu.wsgerencia.service.SancionService</implementation-class>
+    </service>
+    <service name="LogeoService">
+      <implementation-class>co.usta.edu.wsgerencia.service.LogeoService</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>
